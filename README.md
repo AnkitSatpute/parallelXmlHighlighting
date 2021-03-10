@@ -24,6 +24,19 @@ Command line Tool to Record, Annotate, and Visualize and Parallel Structures in 
 
 ## How does it work?
 
+This project uses Maven (https://maven.apache.org). We stay by the default maven convention for a multi-module project to attain a functional separation.
+
+As an unique reference / group namespace for all modules the Maven Group ID org.sciplore.pds.backend is used.
+
+groupId org.sciplore.pds-backend
+artifactId <see each sub-module>
+version <main>.<major>[-SNAPSHOT]
+  
+  
+Used Technologies
+-----------------
+Java 8 (https://www.oracle.com/de/java/)
+Maven 3 (https://maven.apache.org/plugins/maven-install-plugin/usage.html)
 
 
 ## Usage
@@ -43,7 +56,8 @@ java -cp pds-xmlph-parent-0.0.1-SNAPSHOT-jar.jar pds.TextFeatureProcess_extract 
 
 ## License
 
-[Apache License Version 2.0](LICENSE) © Marco Beck
+We use the Apache 2.0 Licence. All dependent libraries use the same or similar license. ParsCit as an external tool is the only exception and uses a LGPL.
+© Marco Beck
 
 
 
