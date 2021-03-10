@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <0>
+        <Category>URL</Category>
+        <Newly>http://t-online.de/</Newly>
+    </0>
+    <1>
+        <Category>Username</Category>
+        <Newly></Newly>
+    </1>
+    <2>
+        <Category>Group Name</Category>
+        <Newly></Newly>
+    </2>
+</root>

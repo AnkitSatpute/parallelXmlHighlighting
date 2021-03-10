@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
+<article lang="">
+  <para><note><remark>HTML: &lt;meta http-equiv="X-UA-Compatible" content="IE=8; IE=EDGE"&gt;</remark></note>Access Blocked</para>
+  <sect1>
+    <title>Web Page Blocked</title>
+    <para>You have tried to access a web page that is in violation of your Internet usage policy.</para>
+    <informaltable frame="all">
+      <tgroup cols="2"><tbody><row><entry><para>Category</para></entry><entry><para>Newly</para></entry></row><row><entry><para>URL</para></entry><entry><para>http://t-online.de/</para></entry></row><row><entry><para>Username</para></entry><entry><para/></entry></row><row><entry><para>Group Name</para></entry><entry><para/></entry></row></tbody></tgroup>
+    </informaltable>
+    <para>To have the rating of this web page re-evaluated <ulink url="http://evaluated.com/">please click here</ulink>.</para>
+  </sect1>
+</article>

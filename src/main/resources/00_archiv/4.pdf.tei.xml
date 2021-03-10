@@ -1,0 +1,875 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Data management in cloud environments: NoSQL and NewSQL data stores</title>
+		<author>
+			<persName><forename type="first">Katarina</forename><surname>Grolinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wilson</forename><forename type="middle">A</forename><surname>Higashino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abhinav</forename><surname>Tiwari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Miriam</forename><forename type="middle">Am</forename><surname>Capretz</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/2192-113x-2-22</idno>
+		<ptr type="open-access" target="https://journalofcloudcomputing.springeropen.com/track/pdf/10.1186/2192-113X-2-22" />
+		<ptr target="http://www.journalofcloudcomputing" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cloud Computing: Advances, Systems and Applications</title>
+		<title level="j" type="abbrev">Journal of Cloud Computing: Advances, Systems and Applications</title>
+		<idno type="ISSN">2192-113X</idno>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">22</biblScope>
+			<date type="published" when="2013" />
+			<publisher>Springer Nature</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Katarina Grolinger, Wilson A Higashino, Abhinav Tiwari and Miriam AM Capretz; &quot;Data management in cloud environments: NoSQL and NewSQL data stores&quot;; Journal of Cloud Computing: Advances, Systems and Applications 2013, 2:22, http://www.journalofcloudcomputing.</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">NOSQL: The Big Data Solution</title>
+		<author>
+			<persName><forename type="first">Naseer</forename><surname>Ganiee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of advancement in Engineering technology</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<date type="published" when="2014-07-02" />
+		</imprint>
+	</monogr>
+	<note>Management and Applied Science</note>
+	<note type="raw_reference">Naseer Ganiee; &quot;NOSQL: The Big Data Solution&quot;; International Journal of advancement in Engineering technology, Management and Applied Science, volume 1 Issues 2 July 2014.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">NoSQL databases: a step to database scalability in web environment</title>
+		<author>
+			<persName><forename type="first">Jaroslav</forename><surname>Pokorny</surname></persName>
+		</author>
+		<idno type="DOI">10.1108/17440081311316398</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Web Information Systems</title>
+		<title level="j" type="abbrev">Int J of Web Info Systems</title>
+		<idno type="ISSN">1744-0084</idno>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="69" to="82" />
+			<date type="published" when="2013-03-29" />
+			<publisher>Emerald</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jaroslav Pokorny, &quot;NoSQL databases: a step to database scalability in web environment&quot;;</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">NoSQL Databases</title>
+		<author>
+			<persName><forename type="first">Johannes</forename><surname>Zollmann</surname></persName>
+		</author>
+		<idno>nosql.pdf</idno>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Johannes Zollmann,&quot; NoSQL Databases&quot;, nosql.pdf</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Introduction to NoSQL Databases</title>
+		<author>
+			<persName><forename type="first">Tore</forename><surname>Risch</surname></persName>
+		</author>
+		<idno>NoSQLDatabases.pdf</idno>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Tore Risch, &quot;Introduction to NoSQL Databases&quot;, NoSQLDatabases.pdf</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Nosql-Whitepaper</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>pdf [7] 2012-09_Java_Magazin_NoSQL.pdf</note>
+	<note type="raw_reference">NoSQL-Whitepaper.pdf [7] 2012-09_Java_Magazin_NoSQL.pdf</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Greg</forename><surname>Burd "nosql</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Burd.pdf</note>
+	<note type="raw_reference">GREG BURD &quot;NoSQL&quot;, Burd.pdf</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">NoSQL: Need and Evolution</title>
+		<author>
+			<persName><forename type="first">Shubham</forename><surname>Kumar</surname></persName>
+		</author>
+		<idno>day2track2session6.pdf</idno>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Shubham Kumar, &quot;NoSQL: Need and Evolution&quot;, day2track2session6.pdf</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">A Comparison of SQL and NoSQL Databases</title>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Stonebraker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">;</forename><surname>Keith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hare</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011-05" />
+		</imprint>
+	</monogr>
+	<note>NoSQL vs. NewSQL on New OLTP</note>
+	<note type="raw_reference">Michael Stonebraker &quot;OldSQL vs. NoSQL vs. NewSQL on New OLTP&quot;, stonebraker.pdf [11] Keith W. Hare, &quot;A Comparison of SQL and NoSQL Databases&quot;, WG2_N1537_SQL_Standard_and_NoSQL_Databases 2011-05.pdf</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">NoSQL and the Windows Azure platform</title>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">J</forename><surname>Brust</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Windows Azure No SQL White Paper.pdf</note>
+	<note type="raw_reference">Andrew J. Brust, &quot;NoSQL and the Windows Azure platform&quot;, Windows Azure No SQL White Paper.pdf</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Wp-Datastax-Whynosql</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">WP-DataStax-WhyNoSQL.pdf</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Cross-database mammographic image analysis through unsupervised domain adaptation</title>
+		<author>
+			<persName><forename type="first">Deepak</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chetan</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ming</forename><surname>Shao</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/bigdata.2017.8258419</idno>
+	</analytic>
+	<monogr>
+		<title level="m">2017 IEEE International Conference on Big Data (Big Data)</title>
+				<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2017-12" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rakesh Kumar, Neha Gupta, Shilpi Charu, Sunil Kumar Jangir, &quot;Manage Big Data through NewSQL&quot;</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<author>
+			<persName><forename type="first">Rakesh</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Neha</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shilpi</forename><surname>Charu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sunil</forename><surname>Kumar Jangir</surname></persName>
+		</author>
+		<title level="m">Architectural Paradigms of Big Data</title>
+				<imprint/>
+	</monogr>
+	<note type="raw_reference">Rakesh Kumar, Neha Gupta, Shilpi Charu, Sunil Kumar Jangir, &quot;Architectural Paradigms of Big Data&quot;</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<author>
+			<persName><forename type="first">An Oracle</forename><surname>White</surname></persName>
+		</author>
+		<title level="m">Hadoop and NoSQL Technologies and the Oracle Database</title>
+				<imprint>
+			<date type="published" when="2011-02" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">An Oracle White Paper February 2011; Hadoop and NoSQL Technologies and the Oracle Database.pdf</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<author>
+			<persName><surname>Christ Of Strauch ; Prof</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Walter Kriha</surname></persName>
+		</author>
+		<title level="m">NoSQL Databases</title>
+				<imprint/>
+	</monogr>
+	<note>cs134@hdm-stuttgart.de</note>
+	<note type="raw_reference">Christ of Strauch (cs134@hdm-stuttgart.de), Prof. Walter Kriha; &quot;NoSQL Databases&quot;.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">An Oracle</forename><surname>White</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Oracle NoSQL Database</title>
+		<imprint>
+			<date type="published" when="2011-09" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">An Oracle White Paper September 2011; Oracle NoSQL Database.pdf</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Rick Cattell</title>
+	</analytic>
+	<monogr>
+		<title level="m">Scalable SQL and NoSQL Data Stores&quot;; Originally published in 2010, last revised</title>
+				<imprint>
+			<date type="published" when="2011-12" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rick Cattell; &quot;Scalable SQL and NoSQL Data Stores&quot;; Originally published in 2010, last revised December 2011</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Big Data</title>
+		<author>
+			<persName><forename type="first">Nathan</forename><surname>Marz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><surname>Warren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Principles and best practices of scalable realtime data systems MEAP Edition, Manning Early Access Program, Big Data</title>
+				<imprint>
+			<biblScope unit="page">17</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Nathan Marz, James Warren, &quot;Big Data&quot;, Principles and best practices of scalable realtime data systems MEAP Edition, Manning Early Access Program, Big Data; Version 17</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">History Repeats Itself: Sensible and NonsenSQL Aspects of the NoSQL Hoopla</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mohan</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">C. Mohan&quot; History Repeats Itself: Sensible and NonsenSQL Aspects of the NoSQL Hoopla&quot;.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Oracle Information Architecture: An Architect&apos;s Guide to Big Data</title>
+		<imprint>
+			<date type="published" when="2012-08" />
+		</imprint>
+	</monogr>
+	<note>An Oracle White Paper in Enterprise Architecture</note>
+	<note type="raw_reference">An Oracle White Paper in Enterprise Architecture August 2012 &quot;Oracle Information Architecture: An Architect&apos;s Guide to Big Data&quot;.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<author>
+			<persName><forename type="first">Vatika</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Meenu</forename><surname>Dave</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">SQL and NoSQL Databases</title>
+				<imprint>
+			<date type="published" when="2012-08" />
+			<biblScope unit="volume">2</biblScope>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Vatika Sharma, Meenu Dave; &quot;SQL and NoSQL Databases&quot;; International Journal of Advanced Research in Computer Science and Software Engineering; Volume 2, Issue 8, August 2012 ISSN: 2277 128X</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Big_Data_Architecture_Research_At_Uva</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Pdf</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Big_Data_Architecture_Research_at_UvA.pdf</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Miriam AM Capretz</title>
+		<author>
+			<persName><forename type="first">Katarina</forename><surname>Grolinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abhinav</forename><surname>Higashino</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Tiwari</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Data management in cloud environments: NoSQL and NewSQL data stores&quot;; Journal of Cloud Computing: Advances, Systems and Applications</title>
+				<imprint>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Katarina Grolinger, Wilson A Higashino, Abhinav Tiwari, Miriam AM Capretz; &quot;Data management in cloud environments: NoSQL and NewSQL data stores&quot;; Journal of Cloud Computing: Advances, Systems and Applications 2013.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Disaster Data Management in Cloud Environments</title>
+		<author>
+			<persName><forename type="first">Katarina</forename><surname>Grolinger</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Katarina Grolinger,&quot; Disaster Data Management in Cloud Environments&quot;.</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<author>
+			<persName><forename type="first">Vatika</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Meenu</forename><surname>Dave</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">NoSQL and Hadoop Technologies</title>
+				<meeting><address><addrLine>On Oracle Cloud</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2013-04" />
+			<biblScope unit="volume">2</biblScope>
+		</imprint>
+	</monogr>
+	<note>IJETTCS</note>
+	<note type="raw_reference">Vatika Sharma, Meenu Dave; &quot;NoSQL and Hadoop Technologies On Oracle Cloud&quot;; International Journal of Emerging Trends &amp; Technology in Computer Science (IJETTCS); Volume 2, Issue 2, March -April 2013</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">On the inequality of the 3V&apos;s of Big Data Architectural Para-digms: A case for heterogeneity</title>
+		<author>
+			<persName><forename type="first">Todor</forename><surname>Ivanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nikolaos</forename><surname>Korfiatis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roberto</forename><forename type="middle">V</forename><surname>Zicari</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Todor Ivanov, Nikolaos Korfiatis, Roberto V. Zicari, &quot;On the inequality of the 3V&apos;s of Big Data Architectural Para-digms: A case for heterogeneity&quot;.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Oracle: Big Data for the Enterprise</title>
+		<author>
+			<persName><forename type="first">An Oracle White</forename><surname>Paper</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013-06" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">An Oracle White Paper June 2013 &quot;Oracle: Big Data for the Enterprise&quot;.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Kathleen</forename><surname>Ting</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jarek Jarcec</forename><surname>Cecho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Apache Sqoop Cookbook</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Kathleen Ting and Jarek Jarcec Cecho&quot; Apache Sqoop Cookbook&quot;.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Tom White foreword by Doug Cutting</title>
+	</analytic>
+	<monogr>
+		<title level="m">Hadoop: The Definitive Guide</title>
+				<imprint/>
+	</monogr>
+	<note type="raw_reference">Tom White foreword by Doug Cutting;&quot; Hadoop: The Definitive Guide&quot;.</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m">Divyakant Agrawal Sudipto Das Amr El Abbadi &quot;Big Data and Cloud Computing: Current State and Future Opportunities</title>
+				<imprint/>
+	</monogr>
+	<note type="raw_reference">Divyakant Agrawal Sudipto Das Amr El Abbadi &quot;Big Data and Cloud Computing: Current State and Future Opportunities&quot;.</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Apache</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Hadoop</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Yarn_</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sample</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Apache.Hadoop.YARN_.Sample.pdf</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Big Data Now</title>
+		<author>
+			<persName><forename type="first">O'reilly</forename><surname>Media</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">O&apos;Reilly Media&quot; Big Data Now&quot;.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Big-Data Tutorial</title>
+		<author>
+			<persName><forename type="first">Marko</forename><surname>Grobelnik</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Marko Grobelnik&quot;Big-Data Tutorial&quot;.</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Bigdata</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Pdf</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">BigData.pdf</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Big-Data-is-the-Future-of-Healthcare</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Big-Data-is-the-Future-of-Healthcare.pdf</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Bigdatawhitepaper</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Pdf</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Bigdatawhitepaper.pdf</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Introduction To Hadoop</title>
+		<author>
+			<persName><forename type="first">Kenneth</forename><surname>Heafield</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Kenneth Heafield, &quot;Introduction To Hadoop&quot;.</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Alex Ezeh: bringing world-class research home</title>
+		<author>
+			<persName><forename type="first">Alex</forename><surname>Holmes</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0140-6736(12)61165-9</idno>
+		<idno type="PMID">22794233</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Lancet</title>
+		<title level="j" type="abbrev">The Lancet</title>
+		<idno type="ISSN">0140-6736</idno>
+		<imprint>
+			<biblScope unit="volume">380</biblScope>
+			<biblScope unit="issue">9837</biblScope>
+			<biblScope unit="page">101</biblScope>
+			<date type="published" when="2012-07" />
+			<publisher>Elsevier BV</publisher>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">ALEX HOLMES, &quot;Hadoop in Practice&quot;.</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">From awareness to action</title>
+		<author>
+			<persName><forename type="first">Chuck</forename><surname>Lam</surname></persName>
+		</author>
+		<idno type="DOI">10.5353/th_b3125493</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Hadoop in Action</title>
+				<imprint>
+			<publisher>The University of Hong Kong Libraries</publisher>
+			<date>null</date>
+		</imprint>
+	</monogr>
+	<note type="raw_reference">CHUCK LAM, &quot;Hadoop in Action&quot;.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title level="m" type="main">harnessing-hadoop-understanding-the-big-data-processing-options-for-optimizing-analyticalworkloads</title>
+		<imprint/>
+	</monogr>
+	<note>pdf</note>
+	<note type="raw_reference">harnessing-hadoop-understanding-the-big-data-processing-options-for-optimizing-analytical- workloads.pdf</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<author>
+			<persName><forename type="first">Dhruba</forename><surname>Borthakur</surname></persName>
+		</author>
+		<title level="m">The Hadoop Distributed File System: Architecture and Design</title>
+				<imprint/>
+	</monogr>
+	<note type="raw_reference">Dhruba Borthakur, &quot;The Hadoop Distributed File System: Architecture and Design&quot;.</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<author>
+			<persName><forename type="first">Jean-</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pierre</forename><surname>Dijcks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Gubar</surname></persName>
+		</author>
+		<title level="m">Integrating SQL and Hadoop</title>
+				<imprint/>
+	</monogr>
+	<note type="raw_reference">Jean-Pierre Dijcks and Martin Gubar; &quot;Integrating SQL and Hadoop&quot;.</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Jeffhughes_Implementing_Hdfs</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Pdf</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">JeffHughes_Implementing_HDFS.pdf</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Defining architecture components of the Big Data Ecosystem</title>
+		<author>
+			<persName><forename type="first">Yuri</forename><surname>Demchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cees</forename><surname>De Laat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Membrey</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/cts.2014.6867550</idno>
+		<ptr type="open-access" target="http://uazone.org/demch/papers/bddac2014-bd-ecosystem-archi-v05.pdf" />
+	</analytic>
+	<monogr>
+		<title level="m">2014 International Conference on Collaboration Technologies and Systems (CTS)</title>
+				<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2014-05" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Yuri Demchenko; &quot;Defining the Big Data Architecture Framework (BDAF)&quot;.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m" type="main">Hadoop Map/Reduce Tutorial</title>
+		<imprint/>
+	</monogr>
+	<note>mapred_tutorial.pdf</note>
+	<note type="raw_reference">Hadoop Map/Reduce Tutorial; mapred_tutorial.pdf</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">NoSQL Databases for RDF: An Empirical Evaluation</title>
+		<author>
+			<persName><forename type="first">Philippe</forename><surname>Cudré-Mauroux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Iliya</forename><surname>Enchev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sever</forename><surname>Fundatureanu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paul</forename><surname>Groth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Albert</forename><surname>Haque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Harth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Felix</forename><forename type="middle">Leif</forename><surname>Keppmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Miranker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Juan</forename><forename type="middle">F</forename><surname>Sequeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marcin</forename><surname>Wylot</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-642-41338-4_20</idno>
+		<idno type="ark">ark:/67375/HCB-7PZ2TVSX-D</idno>
+		<idno type="istexId">617E3903C92BB1366539AC03F348234A059F411A</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Advanced Information Systems Engineering</title>
+				<imprint>
+			<publisher>Springer Berlin Heidelberg</publisher>
+			<date type="published" when="2013" />
+			<biblScope unit="page" from="310" to="325" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Philippe Cudr_e-Mauroux1, Iliya Enchev, Sever Fundatureanu, Paul Groth, Albert Haque, Andreas Harth, Felix Leif Keppmann, Daniel Miranker, Juan Sequeda, and Marcin Wylot; &quot;NoSQL Databases for RDF: An Empirical Evaluation&quot;.</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Pro Hadoop</title>
+		<author>
+			<persName><forename type="first">Jason</forename><surname>Venner</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-4302-1943-9</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Pro Hadoop</title>
+				<imprint>
+			<publisher>Apress</publisher>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Jason Venner; &quot;Pro Hadoop&quot;.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<author>
+			<persName><surname>Revolution</surname></persName>
+		</author>
+		<author>
+			<persName><surname>White Paper</surname></persName>
+		</author>
+		<title level="m">Advanced &apos;Big Data&apos; Analytics with R and Hadoop</title>
+				<imprint/>
+	</monogr>
+	<note type="raw_reference">REVOLUTION ANALYTICS WHITE PAPER &quot;Advanced &apos;Big Data&apos; Analytics with R and Hadoop&quot;.</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Sergebazhievsky_Introduction_To_Hadoop_Mapreduce_V2</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Pdf</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">SergeBazhievsky_Introduction_to_Hadoop_MapReduce_v2.pdf</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Defining architecture components of the Big Data Ecosystem</title>
+		<author>
+			<persName><forename type="first">Yuri</forename><surname>Demchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cees</forename><surname>De Laat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Membrey</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/cts.2014.6867550</idno>
+		<ptr type="open-access" target="http://uazone.org/demch/papers/bddac2014-bd-ecosystem-archi-v05.pdf" />
+	</analytic>
+	<monogr>
+		<title level="m">2014 International Conference on Collaboration Technologies and Systems (CTS)</title>
+				<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2014-05" />
+		</imprint>
+	</monogr>
+	<note>Draft Version 0.2</note>
+	<note type="raw_reference">Yuri Demchenko, Canh Ngo, Peter Membrey&quot; Architecture Framework and Components for the Big Data Ecosystem&quot; Draft Version 0.2</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title level="m" type="main">Big Data Meets Big Data Analytics Three Key Technologies for Extracting Real-Time Business Value from the Big Data That Threatens to Overwhelm Traditional Computing Architectures</title>
+		<imprint/>
+	</monogr>
+	<note type="raw_reference">Big Data Meets Big Data Analytics Three Key Technologies for Extracting Real-Time Business Value from the Big Data That Threatens to Overwhelm Traditional Computing Architectures</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title level="m" type="main">Comparing the Hadoop Distributed File System (HDFS) with the Cassandra File System (CFS) White Paper BY DATASTAX</title>
+		<imprint>
+			<date type="published" when="2013-08" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Comparing the Hadoop Distributed File System (HDFS) with the Cassandra File System (CFS) White Paper BY DATASTAX CORPORATION August 2013</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Critical Analysis of Database Management Using NewSQL</title>
+		<author>
+			<persName><forename type="first">Rakesh</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Neha</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hitesh</forename><surname>Maharwal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shilpi</forename><surname>Charu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kusum</forename><surname>Yadav</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Computer Science and Mobile Computing; IJCSMC</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="434" to="438" />
+			<date type="published" when="2014-05" />
+		</imprint>
+	</monogr>
+	<note type="raw_reference">Rakesh Kumar, Neha Gupta, Hitesh Maharwal, Shilpi Charu, Kusum Yadav; &quot;Critical Analysis of Database Management Using NewSQL&quot;; International Journal of Computer Science and Mobile Computing; IJCSMC, Vol. 3, Issue. 5, May 2014, pg.434 -438</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-stylesheet href="/selfxml.xsl" type="text/xsl" ?><Mitglieder><Mitglied Id="1"><Vorname></Vorname><Nachname></Nachname><Strasse></Strasse><PLZ></PLZ><Stadt></Stadt></Mitglied><Mitglied Id="2"><Vorname></Vorname><Nachname></Nachname><Strasse></Strasse><PLZ></PLZ><Stadt></Stadt></Mitglied></Mitglieder>

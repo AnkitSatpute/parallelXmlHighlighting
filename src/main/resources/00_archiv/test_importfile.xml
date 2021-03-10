@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:///usr/lib/grobid-home/schemas/rng/Grobid.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="en">
+        <fileDesc>
+            <titleStmt>
+                <title level="a" type="main">My letter to Patrick</title>
+            </titleStmt>
+    </teiHeader>
+    <text xml:lang="en">
+        <body>
+            <div>
+                <head n="1">My letter to Patrick</head>
+<p>Hello everybody,<br/>
+this is a test message from me to you.</p>
+<p>All the best</p>
+<p>Friend</p>
+    </text>
+
+                <listBibl>
+
+
+
+
+                    <biblStruct xml:id="b2">
+                        <analytic>
+                            <title level="a" type="main">The PASCAL Recognising Textual Entailment Challenge</title>
+                            <author>
+                                <persName>
+                                    <forename type="first">I</forename>
+                                    <surname>Dagan</surname>
+                                </persName>
+                            </author>
+                            <author>
+                                <persName>
+                                    <forename type="first">O</forename>
+                                    <surname>Glickman</surname>
+                                </persName>
+                            </author>
+                            <author>
+                                <persName>
+                                    <forename type="first">B</forename>
+                                    <surname>Magnini</surname>
+                                </persName>
+                            </author>
+                        </analytic>
+                        <monogr>
+                            <title level="m">MLCW 2005, LNAI</title>
+                            <editor>Quiñonero- Candela et al.</editor>
+                            <imprint>
+                                <publisher>Springer-Verlag</publisher>
+                                <date type="published" when="2006" />
+                                <biblScope unit="page" from="177" to="190" />
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                    <biblStruct xml:id="b3">
+                        <analytic>
+                            <title level="a" type="main">Incorporating Non-local Information into Information Extraction Systems by Gibbs Sampling</title>
+                            <author>
+                                <persName>
+                                    <forename type="first">Jenny</forename>
+                                    <forename type="middle">Rose</forename>
+                                    <surname>Finkel</surname>
+                                </persName>
+                            </author>
+                            <author>
+                                <persName>
+                                    <forename type="first">Trond</forename>
+                                    <surname>Grenager</surname>
+                                </persName>
+                            </author>
+                            <author>
+                                <persName>
+                                    <forename type="first">Christopher</forename>
+                                    <surname>Manning</surname>
+                                </persName>
+                            </author>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proceedings of the 43nd Annual Meeting of the Association for Computational Linguistics (ACL 2005)</title>
+                            <meeting>the 43nd Annual Meeting of the Association for Computational Linguistics (ACL 2005)</meeting>
+                            <imprint>
+                                <date type="published" when="2005" />
+                                <biblScope unit="page" from="363" to="370" />
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                    <biblStruct xml:id="b4">
+                        <analytic>
+                            <title level="a" type="main">The Third PASCAL Recognizing Textual Entailment Challenge</title>
+                            <author>
+                                <persName>
+                                    <forename type="first">D</forename>
+                                    <surname>Giampiccolo</surname>
+                                </persName>
+                            </author>
+                            <author>
+                                <persName>
+                                    <forename type="first">B</forename>
+                                    <surname>Magnini</surname>
+                                </persName>
+                            </author>
+                            <author>
+                                <persName>
+                                    <forename type="first">I</forename>
+                                    <surname>Dagan</surname>
+                                </persName>
+                            </author>
+                            <author>
+                                <persName>
+                                    <forename type="first">B</forename>
+                                    <surname>Dolan</surname>
+                                </persName>
+                            </author>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proceedings of the Workshop on Textual Entailment and Paraphrasing</title>
+                            <meeting>the Workshop on Textual Entailment and Paraphrasing<address><addrLine>Prague</addrLine></address></meeting>
+                            <imprint>
+                                <date type="published" when="2007-06" />
+                                <biblScope unit="page" from="1" to="9" />
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                    <biblStruct xml:id="b5">
+                        <analytic>
+                            <title level="a" type="main">The Necessity of Parsing for Predicate Argument Recognition</title>
+                            <author>
+                                <persName>
+                                    <forename type="first">D</forename>
+                                    <surname>Gildea</surname>
+                                </persName>
+                            </author>
+                            <author>
+                                <persName>
+                                    <forename type="first">M</forename>
+                                    <surname>Palmer</surname>
+                                </persName>
+                            </author>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proceedings of the 40th Meeting of the Association for Computational Linguistics</title>
+                            <meeting>the 40th Meeting of the Association for Computational Linguistics<address><addrLine>Philadelphia, PA</addrLine></address></meeting>
+                            <imprint>
+                                <date type="published" when="2002" />
+                                <biblScope unit="page" from="239" to="246" />
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                    <biblStruct xml:id="b6">
+                        <analytic>
+                            <title level="a" type="main">Dependency-based Evaluation of MINIPAR</title>
+                            <author>
+                                <persName>
+                                    <forename type="first">D</forename>
+                                    <surname>Lin</surname>
+                                </persName>
+                            </author>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Workshop on the Evaluation of Parsing Systems</title>
+                            <imprint>
+                                <date type="published" when="1998" />
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                    <biblStruct xml:id="b7">
+                        <analytic>
+                            <title level="a" type="main">A Shallow Text Processing Core Engine</title>
+                            <author>
+                                <persName>
+                                    <forename type="first">G</forename>
+                                    <surname>Neumann</surname>
+                                </persName>
+                            </author>
+                            <author>
+                                <persName>
+                                    <forename type="first">J</forename>
+                                    <surname>Piskorski</surname>
+                                </persName>
+                            </author>
+                        </analytic>
+                        <monogr>
+                            <title level="j">Journal of Computational Intelligence</title>
+                            <imprint>
+                                <biblScope unit="volume">18</biblScope>
+                                <biblScope unit="issue">3</biblScope>
+                                <biblScope unit="page" from="451" to="476" />
+                                <date type="published" when="2002" />
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                    <biblStruct xml:id="b8">
+                        <analytic>
+                            <title level="a" type="main">Overview of the Answer Validation Exercise</title>
+                            <author>
+                                <persName>
+                                    <forename type="first">Anselmo</forename>
+                                    <surname>Peñas</surname>
+                                </persName>
+                            </author>
+                            <author>
+                                <persName>
+                                    <forename type="first">Álvaro</forename>
+                                    <surname>Rodrigo</surname>
+                                </persName>
+                            </author>
+                            <author>
+                                <persName>
+                                    <forename type="first">Felisa</forename>
+                                    <surname>Verdejo</surname>
+                                </persName>
+                            </author>
+                        </analytic>
+                        <monogr>
+                            <title level="m">the CLEF 2007 Working Notes</title>
+                            <imprint>
+                                <date type="published" when="2007" />
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                    <biblStruct xml:id="b9">
+                        <analytic>
+                            <title level="a" type="main">Recognizing Textual Entailment Using a Subsequence Kernel Method</title>
+                            <author>
+                                <persName>
+                                    <forename type="first">R</forename>
+                                    <surname>Wang</surname>
+                                </persName>
+                            </author>
+                            <author>
+                                <persName>
+                                    <forename type="first">G</forename>
+                                    <surname>Neumann</surname>
+                                </persName>
+                            </author>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proc. of AAAI</title>
+                            <meeting>. of AAAI</meeting>
+                            <imprint>
+                                <date type="published" when="2007" />
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                    <biblStruct xml:id="b10">
+                        <analytic>
+                            <title level="a" type="main">Recognizing Textual Entailment Using Sentence Similarity based on Dependency Tree Skeletons</title>
+                            <author>
+                                <persName>
+                                    <forename type="first">R</forename>
+                                    <surname>Wang</surname>
+                                </persName>
+                            </author>
+                            <author>
+                                <persName>
+                                    <forename type="first">G</forename>
+                                    <surname>Neumann</surname>
+                                </persName>
+                            </author>
+                        </analytic>
+                        <monogr>
+                            <title level="m">Proceedings of the Workshop on Textual Entailment and Paraphrasing</title>
+                            <meeting>the Workshop on Textual Entailment and Paraphrasing<address><addrLine>Prague</addrLine></address></meeting>
+                            <imprint>
+                                <date type="published" when="2007-06" />
+                                <biblScope unit="page" from="36" to="41" />
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                    <biblStruct xml:id="b11">
+                        <analytic>
+                            <title level="a" type="main">DFKI–LT at AVE 2007: Using Recognizing Textual Entailment for Answer Validation</title>
+                            <author>
+                                <persName>
+                                    <forename type="first">R</forename>
+                                    <surname>Wang</surname>
+                                </persName>
+                            </author>
+                            <author>
+                                <persName>
+                                    <forename type="first">G</forename>
+                                    <surname>Neumann</surname>
+                                </persName>
+                            </author>
+                        </analytic>
+                        <monogr>
+                            <title level="m">online proceedings of CLEF 2007 Working Notes</title>
+                            <meeting><address><addrLine>Budapest, Hungary</addrLine></address></meeting>
+                            <imprint>
+                                <date type="published" when="2007-09" />
+                            </imprint>
+                        </monogr>
+                    </biblStruct>
+
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
+</TEI>
