@@ -28,15 +28,15 @@ This project uses Maven (https://maven.apache.org). We stay by the default maven
 
 As an unique reference / group namespace for all modules the Maven Group ID org.sciplore.pds.backend is used.
 
-groupId org.sciplore.pds-backend
-artifactId <see each sub-module>
-version <main>.<major>[-SNAPSHOT]
+- groupId org.sciplore.pds-backend
+- artifactId <see each sub-module>
+- version <main>.<major>[-SNAPSHOT]
   
   
 Used Technologies
 -----------------
-Java 8 (https://www.oracle.com/de/java/)
-Maven 3 (https://maven.apache.org/plugins/maven-install-plugin/usage.html)
+- Java 8 (https://www.oracle.com/de/java/)
+- Maven 3 (https://maven.apache.org/plugins/maven-install-plugin/usage.html)
 
 
 ## Usage
