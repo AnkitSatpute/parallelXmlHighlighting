@@ -41,13 +41,13 @@ Generating the executable jar file via maven
 As soon as the jar file has been created, the application can be executed accordingly via the command line
 
 java -cp pds-xmlph-parent-0.0.1-SNAPSHOT-jar.jar pds.TextFeatureProcess_extract input_document.xml
-  -> filename for the input-xml-file:  input_document.xml 
+ -> filename for the input-xml-file:  input_document.xml 
 
 java -cp pds-xmlph-parent-0.0.1-SNAPSHOT-jar.jar pds.TextFeatureProcess_extract output_plain.txt modify_plain.txt output_mapping.txt input_document.xml
-  -> filename for the output-txt-file:  output_plain.txt
-  -> filename for the modify-xml-file:  output_plain.txt
-  -> filename for the output_mapping-file:  output_mapping.txt
-  -> filename for the input-xml-file:  input_document.xml
+ -> filename for the output-txt-file:  output_plain.txt
+ -> filename for the modify-xml-file:  output_plain.txt
+ -> filename for the output_mapping-file:  output_mapping.txt
+ -> filename for the input-xml-file:  input_document.xml
 
 
 
