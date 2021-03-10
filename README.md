@@ -1,4 +1,4 @@
-# XMLPH  - XML Parallel Highlighing
+# XMLPH  - XML Parallel Highlighting
 
 Command line Tool to Record, Annotate, and Visualize and Parallel Structures in XML Documents
 
