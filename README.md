@@ -41,7 +41,11 @@ Maven 3 (https://maven.apache.org/plugins/maven-install-plugin/usage.html)
 
 ## Usage
 
-mvn install
+Generating the executable jar file via maven
+  -> mvn install
+
+As soon as the jar file has been created, the application can be executed accordingly via the command line
+
 
 java -cp pds-xmlph-parent-0.0.1-SNAPSHOT-jar.jar pds.TextFeatureProcess_extract input_document.xml
 
@@ -56,7 +60,7 @@ java -cp pds-xmlph-parent-0.0.1-SNAPSHOT-jar.jar pds.TextFeatureProcess_extract 
 
 ## License
 
-We use the Apache 2.0 Licence. All dependent libraries use the same or similar license. ParsCit as an external tool is the only exception and uses a LGPL.
+We use the Apache 2.0 Licence. All dependent libraries use the same or similar license.
 © Marco Beck
 
 
