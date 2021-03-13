@@ -93,7 +93,7 @@ public class ConventionUtil {
             // after this are ES specific changes
             title = title.toLowerCase();
             title = title.replace('"', '\'');
-            title = title.replace('–', '-');
+            title = title.replace('â€“', '-');
             title = title.replace('\\', '-');
         }
         return title;
