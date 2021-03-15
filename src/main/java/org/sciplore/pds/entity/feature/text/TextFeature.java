@@ -1,11 +1,11 @@
-package pds.entity.feature.text;
+package org.sciplore.pds.entity.feature.text;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import pds.entity.feature.BasicFeature;
-import pds.util.ConventionUtil;
+import org.sciplore.pds.entity.feature.BasicFeature;
+import org.sciplore.pds.util.ConventionUtil;
 
 import java.util.List;
 import java.util.Map;
@@ -17,20 +17,20 @@ import java.util.TreeMap;
  * 
  * @author Vincent Stange
  */
-@Document(indexName = "texts", type = "text", replicas = 0, shards = 2)
+//@Document(indexName = "texts", type = "text", replicas = 0, shards = 2)
 @NoArgsConstructor
 @Getter
 @Setter
-public class TextFeature extends BasicFeature {
+public class TextFeature {
 
-    @Field(type = FieldType.String)
+  //  @Field(type = FieldType.String)
     private String text;
 
     @JsonIgnore
     private TreeMap<Integer, Integer> mapping;
     private TreeMap<Integer, Integer> tagging;
 
-    @Field(type = FieldType.String, index = FieldIndex.no)
+ //   @Field(type = FieldType.String, index = FieldIndex.no)
     private String mappingString;
     private String taggingString;
 
@@ -41,7 +41,7 @@ public class TextFeature extends BasicFeature {
      * @param scopes List of scopes.
      */
     public TextFeature(Integer srcDocumentId, List<String> scopes) {
-        super(srcDocumentId, scopes);
+  //      super(srcDocumentId, scopes);
     }
 
     public TreeMap<Integer, Integer> getMapping() {

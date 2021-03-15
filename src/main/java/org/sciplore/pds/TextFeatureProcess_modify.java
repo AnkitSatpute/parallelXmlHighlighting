@@ -1,4 +1,4 @@
-package pds;
+package org.sciplore.pds;
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.Charset;
@@ -118,9 +118,14 @@ public class TextFeatureProcess_modify {
        		 z.removeAll(strListmodi);
 
 
+	    		System.out.println(z);
+	    		
+
        		 
        		 ArrayList<String> u = new ArrayList<String>(strListmodi);
        		 u.removeAll(strList);
+       		 
+	    		System.out.println(u);
 
        		 
              //output_cleanup-file as txt
@@ -296,17 +301,18 @@ public class TextFeatureProcess_modify {
         		    
         		    String[] array_xml_tagsarr = output_xml_tags_trennzeichen.split("==");
         		    String[] array_xml_tagsarr_new = merge(array_xml_tagsarr, array_string_plain_txt_mod);
-        		    String joined = String.join("", array_xml_tagsarr_new); //returns "android"
+        		    String joined = String.join("", array_xml_tagsarr_new); //
         		    
        	         	joined = joined.replaceAll("null", "");
 
         		    
-       // paste the em-tags
+       // paste the em-tags for the difference
 
         		    String new_xml_string_with_em = null;
         		    
         		    
         		    Object [] differenz_array = u.toArray();
+
         		    
         		    for(int n = 0;n < differenz_array.length;n++)        
         		    {	
@@ -318,12 +324,212 @@ public class TextFeatureProcess_modify {
 
         		    
         		  //Output-mapping-file as txt
-		            String output_xml_document_file ="src/main/resources/output_document.xml";
+		            String output_xml_document_file ="src/main/resources/output_document_differencehigh.xml";
 		            Files.write(Paths.get(output_xml_document_file), new_xml_string_with_em.getBytes("UTF8"));
 		            
 
 		    		System.out.println(new_xml_string_with_em);
-        		    
+        		  
+		    		
+	   // paste the em-tags for the same		
+
+		    		String tmp = null;
+				    			
+		    	   String[] array_new_xml_string = joined.split(">");
+		    	   
+		    	   for(int n = 0;n < array_new_xml_string.length;n++)        
+       		    {	
+		    		   
+			    		
+			    		 if (array_new_xml_string[n].startsWith("<"))
+			    		 {
+			    			 
+			    		 }
+			    		 else			    			 
+			    		 {
+			    		
+			    		String zeile_array_new_xml_string = array_new_xml_string[n];
+			    		
+			    		 tmp = tmp +  n + ", " ;	
+			    		
+			    		 for(int t = 0;t < Array_Differenz_modfiy.length;t++)        
+			       		    {	
+			    			 
+			    			 if (array_new_xml_string[n].contains(Array_Differenz_modfiy[t])) 
+	    				    		
+		 			    		{
+		 			    			System.out.println("yep");
+		 			    			System.out.println(zeile_array_new_xml_string);
+		 			    			
+		 			    			tmp = tmp + "JA;";
+		 			    		}
+		 			    		else
+		 			    		{
+		 			    			tmp = tmp + "NEIN;";
+		 			    		}
+			    			 
+			    			 
+			    			 
+			       		    }
+			    			 
+			    		
+			    		 tmp = tmp + "\n" + "==";	
+			    		 
+			    		 tmp = tmp.replaceAll("null", "");
+			    		
+			    		
+       		    }
+
+			    		 System.out.println(array_new_xml_string[n]);
+
+			    		 
+       		    }
+		    	   
+		    		 System.out.println(tmp);
+		    		 
+		    		 String zeile_parallel_structure = null;
+		    		 String zeile_diff_structure = null;
+
+		    		 String array_zeile_tmp [] = new String [tmp.length()];
+		    		 
+		    		 
+		    		 array_zeile_tmp = tmp.split("==");
+		    		 
+		    		 
+		    		   for(int n = 0;n < array_zeile_tmp.length;n++)        
+		       		    {	
+				    		   
+		    			   if (array_zeile_tmp[n].contains("JA"))
+	
+	 			    		{
+		    				   
+		    				   zeile_parallel_structure = zeile_parallel_structure + array_zeile_tmp[n].substring(0,tmp.indexOf(',')) + (";");
+		    				   
+	 			    		}
+		    			   else
+		    			   {
+		    				   zeile_diff_structure = zeile_diff_structure + array_zeile_tmp[n].substring(0,tmp.indexOf(',')) + (";");
+		    				   
+		    			   }
+
+		    		
+	 			    		}
+		    			   
+			    		 System.out.println("++++++++++++++++++++++++++++");
+
+			    		 zeile_parallel_structure = zeile_parallel_structure.replaceAll("null", "");
+			    		 zeile_diff_structure = zeile_diff_structure.replaceAll("null", "");
+
+				    		 System.out.println(zeile_parallel_structure);
+				    		 System.out.println(zeile_diff_structure);
+				    		 
+				    		 
+				  // behandeln der gleichen Zeilen  		 
+				    		 String array_zeile_diff_structure [] = new String [zeile_diff_structure.length()];
+				    		 array_zeile_diff_structure = zeile_diff_structure.split(";");		    	
+				    		 
+				    		 
+				         	Integer[] array_zeile_diff_structure_int = new Integer[array_zeile_diff_structure.length];
+				        	  for(int n = 0;n < array_zeile_diff_structure.length;n++)        
+				        	  {
+				        		  array_zeile_diff_structure_int[n] = Integer.parseInt(array_zeile_diff_structure[n]);  
+				        		  System.out.println(array_zeile_diff_structure_int[n]);
+				  		    }
+		    		
+		    		
+				    		 for(int n = 0;n < array_zeile_diff_structure_int.length;n++)        
+				       		    {	
+				    			 
+				    			 int zeahler = array_zeile_diff_structure_int[n];
+				    		 
+				    			 array_new_xml_string[zeahler] =  "<em>" + array_new_xml_string[zeahler] + "</em>";
+				    			 
+				        		  System.out.println(array_new_xml_string[zeahler]);
+				    			 
+
+				    		 
+			    			 if (u.contains(array_new_xml_string[zeahler]))
+			    			 
+			    			    				    		
+		 			    		{
+		 			    			System.out.println("yep");
+		 			    			System.out.println(array_new_xml_string[zeahler]);
+		 			    			}
+		 			    		else
+		 			    		{
+		 			    		}
+			    			 
+	 			    			System.out.println("===================================");
+			    			 
+	/////////////////////////////////// AB HIER TEST //////////////////////////////////////////		    			 
+			    			 
+				    
+							  // behandeln der differenzen auf zeilen basis 		 
+				    		 String array_zeile_parallel_structure [] = new String [zeile_parallel_structure.length()];
+				    		 array_zeile_parallel_structure = zeile_parallel_structure.split(";");		    	
+				    		 
+				    		 
+				         	Integer[] array_zeile_parallel_structure_int = new Integer[array_zeile_parallel_structure.length];
+				        	  for(int d = 0;d < array_zeile_parallel_structure.length;d++)        
+				        	  {
+				        		  array_zeile_parallel_structure_int[d] = Integer.parseInt(array_zeile_parallel_structure[d]);  
+				        		  System.out.println("aaa" + array_zeile_parallel_structure_int[d]);
+				  		    }
+		    		
+				    			 
+				    			 String array_zeile_parallel_structure_auslesen [] = new String [zeile_parallel_structure.length()];
+				    			 String zeile_parallel_structure_auslesen = null;
+		    		
+				    		 for(int o = 0;o < array_zeile_parallel_structure_int.length;o++)        
+				       		    {	
+				    			 
+				    			 int zeahler21 = array_zeile_parallel_structure_int[o];
+				    			 
+				    			 zeile_parallel_structure_auslesen =   array_new_xml_string[zeahler21];
+
+			        	//	  System.out.println(array_new_xml_string[zeahler21]);   /// ausgabe der zeilen 4 und 9 -- jeweils mit einem wort geändert
+			        		  ////////////////////////////////////
+			        		  
+			            		    array_new_xml_string[zeahler21] = "<em>" + array_new_xml_string[zeahler21];
+				    			 
+			        		  for(int k = 0;k < differenz_array.length;k++)        
+			        		    {	
+			            		    String word = differenz_array[k].toString();
+			            		    
+
+
+			            		    array_new_xml_string[zeahler21] = array_new_xml_string[zeahler21].replaceAll(word, "</em>" + word + "<em>");
+			        		    	
+			        		    }
+
+			        		  System.out.println(array_new_xml_string[zeahler21]);
+				       		    }
+				    		 
+				    		 System.out.println("############################");
+				    		 
+				    		 
+				    	        StringBuilder stringBuilder_output_xml_document_file_parallelhigh = new StringBuilder();
+				    	        
+				    	        
+				    		 for(int b = 0;b < array_new_xml_string.length;b++)        
+			        		    {	
+				    			 
+				    			 array_new_xml_string[b] = array_new_xml_string[b] + ">";
+				    			 
+				    			 stringBuilder_output_xml_document_file_parallelhigh.append(array_new_xml_string[b]);
+				    			 
+				        		  System.out.println(array_new_xml_string[b]);
+				    			 
+			        		    }
+				    		 
+				  
+				    		 
+			        		  //output_xml_document_file_parallelhigh-file as txt
+					            String output_xml_document_file_parallelhigh ="src/main/resources/output_document_parallelhigh.xml";
+					            Files.write(Paths.get(output_xml_document_file_parallelhigh), stringBuilder_output_xml_document_file_parallelhigh.toString().getBytes("UTF8"));
+				    		 
+				       		    }
+
    }  // closed main
         			
 

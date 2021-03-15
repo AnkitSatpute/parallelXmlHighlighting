@@ -1,11 +1,10 @@
-package pds.entity.feature.text;
+package org.sciplore.pds.entity.feature.text;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import pds.entity.feature.BasicFeatureDB;
-import pds.util.ConventionUtil;
+import org.sciplore.pds.util.ConventionUtil;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -26,7 +25,7 @@ import java.util.TreeMap;
 @NoArgsConstructor
 @Getter
 @Setter
-public class TextFeatureDB extends BasicFeatureDB {
+public class TextFeatureDB {
 
     @Column(name = "text")
     private String text;
@@ -56,7 +55,7 @@ public class TextFeatureDB extends BasicFeatureDB {
      * @param scopes        List of scopes.
      */
     public TextFeatureDB(Integer srcDocumentId, List<String> scopes) {
-        super(srcDocumentId, scopes);
+      //  super(srcDocumentId, scopes);
     }
 
     public TreeMap<Integer, Integer> getMapping() {

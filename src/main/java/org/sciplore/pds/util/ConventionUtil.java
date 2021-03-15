@@ -1,4 +1,4 @@
-package pds.util;
+package org.sciplore.pds.util;
 
 import org.apache.commons.lang3.StringUtils;
 
@@ -21,64 +21,7 @@ public class ConventionUtil {
 
     private static final String USER_SCOPE = "user:%s@%s";
 
-    /**
-     * From the HTTP request, we filter out the latest Technical Account.
-     *
-     * @param httpServletRequest The HTTP Request from an external application
-     * @return The Technical Account triggered the request.
-     */
-    public static Account getCurrentAccount(HttpServletRequest httpServletRequest) {
-        // At this point we can rely on the cast, as long as this remains an application with Spring Security.
-        return (Account) ((Authentication) httpServletRequest.getUserPrincipal()).getPrincipal();
-    }
 
-    /**
-     * Produces a default string for group scopes.
-     *
-     * @param group       Name of the group
-     * @param account Account
-     * @return form of <group>@<Name>
-     */
-    public static String getGroupScope(String group, Account account) {
-        return String.format(GROUP_SCOPE, group, account.getName());
-    }
-
-    /**
-     * Produces a default string for our user scope.
-     *
-     * @param user        User
-     * @param account Account
-     * @return form of user:<user>@<Name>
-     */
-    public static String getUserScope(String user, Account account) {
-        return String.format(USER_SCOPE, user, account.getName());
-    }
-
-    /**
-     * This methode will filter duplicates and add the technical account suffix
-     * on every other scope, which did not contain it.
-     *
-     * @param scopes      list of scopes
-     * @param account technical account to which all scopes are bound
-     * @return new list of scopes
-     */
-    public static List<String> reconcileScopes(List<String> scopes, Account account) {
-        List<String> result = new ArrayList<>();
-        if (scopes != null) {
-            // unique set
-            LinkedHashSet<String> uniqueScopes = new LinkedHashSet<>(scopes);
-
-            for (String scope : uniqueScopes) {
-                if (!scope.equals(GLOBAL_SCOPE) && !scope.contains("@")) {
-                    // global scope or scopa already specified a account
-                    result.add(getGroupScope(scope, account));
-                } else {
-                    result.add(scope);
-                }
-            }
-        }
-        return result;
-    }
 
     /**
      * Replace or mask/escape certain unnecessary characters.
@@ -93,7 +36,7 @@ public class ConventionUtil {
             // after this are ES specific changes
             title = title.toLowerCase();
             title = title.replace('"', '\'');
-            title = title.replace('â€“', '-');
+            title = title.replace('–', '-');
             title = title.replace('\\', '-');
         }
         return title;

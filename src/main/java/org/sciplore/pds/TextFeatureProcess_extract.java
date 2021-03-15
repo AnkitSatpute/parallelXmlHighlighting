@@ -1,10 +1,9 @@
-package pds;
+package org.sciplore.pds;
 
-import pds.entity.feature.ElasticCopy;
-import pds.entity.feature.text.TextFeature;
-import pds.entity.feature.text.TextFeatureDB;
-import pds.entity.feature.text.TextFeatureRepository;
-import pds.entity.feature.text.TextFeatureRepositoryDB;
+import org.sciplore.pds.entity.feature.text.TextFeature;
+import org.sciplore.pds.entity.feature.text.TextFeatureDB;
+import org.sciplore.pds.entity.feature.text.*;
+import org.sciplore.pds.entity.feature.text.TextFeatureRepositoryDB;
 
 
 import org.apache.commons.io.IOUtils;
