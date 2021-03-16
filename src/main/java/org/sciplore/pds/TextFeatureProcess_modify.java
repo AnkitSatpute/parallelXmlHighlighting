@@ -74,6 +74,7 @@ public class TextFeatureProcess_modify {
 	        {
 	         e.printStackTrace();
 	        }
+	        stringBuilder_mapping_txt.append("999");
 	        
 	        //Input-File as xml
 	       // String filePath_input_original_xml = "src/main/resources/input_document.xml";
