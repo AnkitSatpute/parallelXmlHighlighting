@@ -15,7 +15,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 /**
- * TextFeature Document for Elasticsearch. Contains the documents plaintext and a mapping
+ * TextFeature Document. Contains the documents plaintext and a mapping
  * allowing to map plaintext positions to the original TEI document.
  *
  * @author Vincent Stange
@@ -141,6 +141,11 @@ public class TextFeatureDB {
 
         return getSrcDocumentId().equals(that.getSrcDocumentId());
     }
+
+	private Object getSrcDocumentId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 	@Override
     public int hashCode() {

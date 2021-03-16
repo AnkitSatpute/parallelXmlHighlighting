@@ -91,7 +91,6 @@
                         </manifest>
                     </archive>
                     <descriptorRefs>
-                        <descriptorRef>jar-with-dependencies</descriptorRef>
                         <descriptorRef>jar</descriptorRef>
                     </descriptorRefs>
                 </configuration>

@@ -4,7 +4,6 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.sciplore.pds.entity.feature.BasicFeature;
 import org.sciplore.pds.util.ConventionUtil;
 
 import java.util.List;
@@ -12,8 +11,8 @@ import java.util.Map;
 import java.util.TreeMap;
 
 /**
- * TextFeature Document for Elasticsearch. Contains the documents plaintext and a mapping
- * allowing to map plaintext positions to the original TEI document.
+ * TextFeature Document -  Contains the documents plaintext and a mapping
+ * allowing to map plaintext positions to the original TEI/XML document.
  * 
  * @author Vincent Stange
  */
@@ -53,7 +52,7 @@ public class TextFeature {
     
     public TreeMap<Integer, Integer> gettagging() {
         if (tagging == null) {
-            tagging = (ConventionUtil.decodeMapping(gettaggingString()));
+            tagging = (ConventionUtil.decodeMapping(getTaggingString()));
         }
         return tagging;
     }
@@ -65,7 +64,7 @@ public class TextFeature {
         
     public void settagging(TreeMap<Integer, Integer> tagging) {
         this.tagging = tagging;
-        settaggingString(ConventionUtil.encodeMapping(tagging));
+        setTaggingString(ConventionUtil.encodeMapping(tagging));
     }
 
     @Override
@@ -82,4 +81,9 @@ public class TextFeature {
     public int hashCode() {
         return getSrcDocumentId().hashCode();
     }
+
+	private Object getSrcDocumentId() {
+
+		return getSrcDocumentId();
+	}
 }
