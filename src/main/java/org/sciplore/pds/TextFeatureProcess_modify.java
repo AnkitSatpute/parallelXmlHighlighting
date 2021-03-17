@@ -488,7 +488,7 @@ public class TextFeatureProcess_modify {
 				    			 
 				    			 zeile_parallel_structure_auslesen =   array_new_xml_string[zeahler21];
 
-			        	//	  System.out.println(array_new_xml_string[zeahler21]);   /// ausgabe der zeilen 4 und 9 -- jeweils mit einem wort ge‰ndert
+			        	//	  System.out.println(array_new_xml_string[zeahler21]);   /// ausgabe der zeilen 4 und 9 -- jeweils mit einem wort ge√§ndert
 			        		  ////////////////////////////////////
 			        		  
 			            		    array_new_xml_string[zeahler21] = "<em>" + array_new_xml_string[zeahler21];
