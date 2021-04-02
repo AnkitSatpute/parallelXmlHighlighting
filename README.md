@@ -26,43 +26,43 @@ Our approach and tool is a further development of HyPlag (https://hyplag.org/), 
 ## How does it work?
 
 This project uses Maven (https://maven.apache.org). We stay by the default maven convention for a multi-module project to attain a functional separation.
-As an unique reference / group namespace for all modules the Maven Group ID org.sciplore.pds.backend is used.\
--   groupId org.sciplore.pds\
--   artifactId pds-xmlph-parent\
--   version <main>.<major>[-SNAPSHOT]\
+As an unique reference / group namespace for all modules the Maven Group ID org.sciplore.pds.backend is used.
+-   groupId org.sciplore.pds
+-   artifactId pds-xmlph-parent
+-   version <main>.<major>[-SNAPSHOT]
   
   
 Used Technologies
 -----------------
-- Java 8 (https://www.oracle.com/de/java/)\
-- Maven 3 (https://maven.apache.org/plugins/maven-install-plugin/usage.html)\
+- Java 8 (https://www.oracle.com/de/java/)
+- Maven 3 (https://maven.apache.org/plugins/maven-install-plugin/usage.html)
 
 
 ## Usage
 
-Generating the executable jar file via maven\
-  -> mvn install\
+Generating the executable jar file via maven
+  -> mvn install
 
-As soon as the jar file has been created, the application can be executed accordingly via the command line:\
------------------------------------------------------------------------------------------------------------\
+As soon as the jar file has been created, the application can be executed accordingly via the command line:
+-----------------------------------------------------------------------------------------------------------
 
 Step 1: to extract the different data stream from the XML Document:\
 \
-java -cp pds-xmlph-parent-0.0.1-SNAPSHOT-jar.jar org.sciplore.TextFeatureProcess_extract input_document.xml\
- -> filename for the input-xml-file:  input_document.xml\
+java -cp pds-xmlph-parent-0.0.1-SNAPSHOT-jar.jar org.sciplore.TextFeatureProcess_extract input_document.xml
+ -> filename for the input-xml-file:  input_document.xml
 
 Step 2: the different files will be merged again and an xml document will be output:\
 \
-java -cp pds-xmlph-parent-0.0.1-SNAPSHOT-jar.jar pds.TextFeatureProcess_extract output_plain.txt modify_plain.txt output_mapping.txt input_document.xml\
+java -cp pds-xmlph-parent-0.0.1-SNAPSHOT-jar.jar pds.TextFeatureProcess_extract output_plain.txt modify_plain.txt output_mapping.txt input_document.xml
 
- -> filename for the output-plain-txt-file:  output_plain.txt\
- -> filename for the modify-plain-txt-file:  output_plain.txt\
- -> filename for the output_mapping-file:  output_mapping.txt\
- -> filename for the input-xml-file:  input_document.xml\
+ -> filename for the output-plain-txt-file:  output_plain.txt
+ -> filename for the modify-plain-txt-file:  output_plain.txt
+ -> filename for the output_mapping-file:  output_mapping.txt
+ -> filename for the input-xml-file:  input_document.xml
 
 ## Feature Roadmap
-- Of course, space can be output at this point during extraction, but then the calculated positions would no longer be correct during the modified text's subsequent composition and the XML tags. Possibly noting the position at which the blank is inserted with the extraction could help here so that with the assembling again, this position can be determined. Then the position of the XML tags can be corrected accordingly around the blanks.\
-- A further challenge exists in the topic if in the plain text words are inserted at the edge of an XML tag that the algorithm cannot recognize so far, into which XML tag the new word is to be inserted.  Further considerations are required at this point.\
+- Of course, space can be output at this point during extraction, but then the calculated positions would no longer be correct during the modified text's subsequent composition and the XML tags. Possibly noting the position at which the blank is inserted with the extraction could help here so that with the assembling again, this position can be determined. Then the position of the XML tags can be corrected accordingly around the blanks.
+- A further challenge exists in the topic if in the plain text words are inserted at the edge of an XML tag that the algorithm cannot recognize so far, into which XML tag the new word is to be inserted.  Further considerations are required at this point.
 
 ## Maintainers
 
