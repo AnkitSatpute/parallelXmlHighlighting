@@ -10,6 +10,7 @@ Command line Tool to Record, Annotate, and Visualize and Parallel Structures in 
 - [Usage](#usage)
 - [Feature Roadmap](#feature-roadmap)
 - [Maintainers](#maintainers)
+- [Contributing](#contributing)
 - [License](#license)
 
 
@@ -65,6 +66,10 @@ java -cp pds-xmlph-parent-0.0.1-SNAPSHOT-jar.jar pds.TextFeatureProcess_extract 
 
 [Marco Beck](https://github.com/BeckMarco).
 
+
+## Contributing
+
+Feel free to dive in!
 
 ## License
 
