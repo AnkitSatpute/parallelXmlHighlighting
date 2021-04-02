@@ -62,6 +62,7 @@ java -cp pds-xmlph-parent-0.0.1-SNAPSHOT-jar.jar pds.TextFeatureProcess_extract 
 
 ## Feature Roadmap
 - Of course, space can be output at this point during extraction, but then the calculated positions would no longer be correct during the modified text's subsequent composition and the XML tags. Possibly noting the position at which the blank is inserted with the extraction could help here so that with the assembling again, this position can be determined. Then the position of the XML tags can be corrected accordingly around the blanks.
+- 
 -A further challenge exists in the topic if in the plain text words are inserted at the edge of an XML tag that the algorithm cannot recognize so far, into which XML tag the new word is to be inserted.  Further considerations are required at this point.
 
 ## Maintainers
