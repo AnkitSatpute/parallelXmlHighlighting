@@ -53,12 +53,12 @@ java -cp pds-xmlph-parent-0.0.1-SNAPSHOT-jar.jar org.sciplore.TextFeatureProcess
 
 Step 2: the different files will be merged again and an xml document will be output:\
 \
-java -cp pds-xmlph-parent-0.0.1-SNAPSHOT-jar.jar pds.TextFeatureProcess_extract output_plain.txt modify_plain.txt output_mapping.txt input_document.xml\
+java -cp pds-xmlph-parent-0.0.1-SNAPSHOT-jar.jar pds.TextFeatureProcess_extract output_plain.txt modify_plain.txt output_mapping.txt input_document.xml
 
  -> filename for the output-plain-txt-file:  output_plain.txt\
  -> filename for the modify-plain-txt-file:  output_plain.txt\
  -> filename for the output_mapping-file:  output_mapping.txt\
- -> filename for the input-xml-file:  input_document.xml\
+ -> filename for the input-xml-file:  input_document.xml
 
 ## Feature Roadmap
 - Of course, space can be output at this point during extraction, but then the calculated positions would no longer be correct during the modified text's subsequent composition and the XML tags. Possibly noting the position at which the blank is inserted with the extraction could help here so that with the assembling again, this position can be determined. Then the position of the XML tags can be corrected accordingly around the blanks.
