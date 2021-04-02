@@ -54,6 +54,7 @@ java -cp pds-xmlph-parent-0.0.1-SNAPSHOT-jar.jar org.sciplore.TextFeatureProcess
 Step 2: the different files will be merged again and an xml document will be output:
 
 java -cp pds-xmlph-parent-0.0.1-SNAPSHOT-jar.jar pds.TextFeatureProcess_extract output_plain.txt modify_plain.txt output_mapping.txt input_document.xml
+
  -> filename for the output-plain-txt-file:  output_plain.txt
  -> filename for the modify-plain-txt-file:  output_plain.txt
  -> filename for the output_mapping-file:  output_mapping.txt
