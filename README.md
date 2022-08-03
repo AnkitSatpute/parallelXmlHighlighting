@@ -48,12 +48,12 @@ As soon as the jar file has been created, the application can be executed accord
 
 Step 1: to extract the different data stream from the XML Document:\
 \
-java -cp pds-xmlph-parent-0.0.1-SNAPSHOT-jar.jar org.sciplore.TextFeatureProcess_extract input_document.xml\
+java -cp pds-xmlph-parent-0.0.1-SNAPSHOT-jar.jar org.sciplore.pds.TextFeatureProcess_extract input_document.xml\
  -> filename for the input-xml-file:  input_document.xml
 
 Step 2: the different files will be merged again and an xml document will be output:\
 \
-java -cp pds-xmlph-parent-0.0.1-SNAPSHOT-jar.jar pds.TextFeatureProcess_extract output_plain.txt modify_plain.txt output_mapping.txt input_document.xml
+java -cp pds-xmlph-parent-0.0.1-SNAPSHOT-jar.jar org.sciplore.pds.TextFeatureProcess_modify output_plain.txt modify_plain.txt output_mapping.txt input_document.xml
 
  -> filename for the output-plain-txt-file:  output_plain.txt\
  -> filename for the modify-plain-txt-file:  output_plain.txt\
