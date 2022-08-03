@@ -104,6 +104,19 @@
                     </execution>
                 </executions>
             </plugin>
+
+	        <plugin>
+    		    <groupId>org.apache.maven.plugins</groupId>
+        		<artifactId>maven-jar-plugin</artifactId>
+        		<configuration>
+          			<archive>
+            			<manifest>
+              				<addClasspath>true</addClasspath>
+              				 <mainClass>org.sciplore.TextFeatureProcess_extract</mainClass>
+            			</manifest>
+          			</archive>
+        		</configuration>
+      		</plugin>
         </plugins>
     </build>
     
