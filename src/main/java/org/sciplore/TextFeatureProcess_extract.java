@@ -75,26 +75,29 @@ public class TextFeatureProcess_extract {
      
         
         //Output-file as txt
-        String output_file ="src/main/resources/output_plain.txt";
+        //String output_file ="src/main/resources/output_plain.txt";
+        //@Ankit: Conidering that the output file (and "output_mapping_file" & "output_xml_tags_txt") 
+        //is present in the same dir as Jar 
+        String output_file ="output_plain.txt";
         Files.write(Paths.get(output_file), textFeature.getText().getBytes("UTF8"));
 
         
         //Output-mapping-file as txt
-        String output_mapping_file ="src/main/resources/output_mapping.txt";
+        String output_mapping_file ="output_mapping.txt";
         Files.write(Paths.get(output_mapping_file), textFeature.getMappingString().getBytes("UTF8"));
         
         //Output-xml-tags as txt
-       String output_xml_tags_txt ="src/main/resources/output_xml_tags.txt";
+       String output_xml_tags_txt ="output_xml_tags.txt";
        Files.write(Paths.get(output_xml_tags_txt), textFeature.gettags().getBytes("UTF8"));
              
        
-        System.out.println(stringBuilder.toString());
-       System.out.println("------------------------");
-       System.out.println(textFeature.getText());       
-       System.out.println("------------------------");
-       System.out.println(textFeature.getMapping());
-       System.out.println("------------------------");   
-       System.out.println(textFeature.gettags());
+       // System.out.println(stringBuilder.toString());
+       // System.out.println("------------------------");
+       // System.out.println(textFeature.getText());       
+       // System.out.println("------------------------");
+       // System.out.println(textFeature.getMapping());
+       // System.out.println("------------------------");   
+       // System.out.println(textFeature.gettags());
  
     }
 
@@ -116,6 +119,7 @@ public class TextFeatureProcess_extract {
 
         int posTei = 0;
         int posTxt = 0;
+        int mathPos = 0;
 
         StringTokenizer tokenizer = new StringTokenizer(xmlContent, "<>", true);
 
@@ -136,10 +140,14 @@ public class TextFeatureProcess_extract {
                     break;
                 default:
                     if (insideTag) {
-                        if (tok.startsWith("formula") || tok.startsWith("ref")) {
+                        //@Ankit: added math equations IDs as a part of plainText
+                        // Collect Math start and end here
+                        if (tok.startsWith("math")) {
                             skipTagContent = true;
-                        } else if (tok.startsWith("/formula") || tok.startsWith("/ref")) {
+                            mathPos += 1;
+                        } else if (tok.startsWith("/math")) {
                             skipTagContent = false;
+                            plaintextOut.write("[M"+mathPos+"]");
                         }
                     } else if (!skipTagContent) {
                         posTxt += tok.length();
@@ -147,7 +155,9 @@ public class TextFeatureProcess_extract {
                     }
             }
             
-            
+            // System.out.println("tok: "+tok);
+            // System.out.println("posTei: "+posTei);
+            // System.out.println("posTxt: "+posTxt);
         }
 
         // save it all :)
